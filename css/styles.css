@@ -3,7 +3,7 @@
   --general-text-color: #757575;
   --link-hover-color: #2196f3;
   --tit-text-color: #212121;
-  --additional-text-color: #FFFFFF;
+  --white-text-color: #FFFFFF;
 }
 /* ------------------------------------------- */
 body {
@@ -12,9 +12,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--general-text-color);
 }
-/* ul {
-  list-style: none;
-} */
 /* ------------------------------------------- */
 /* Hedder */
 .logo {
@@ -24,27 +21,22 @@ body {
   line-height: 1.19;
   color: var(--link-hover-color);
 }
-
 .std {
   color: var(--tit-text-color);
 }
-
 .nav-list a {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
-
 .nav-list a:hover,
 .nav-list a:focus {
-  color: var(--link-hover-color);
+color: var(--link-hover-color); 
 }
-
 .nav-list a {
   color: var(--tit-text-color);
 }
-
 /* Hedder */
 /* ------------------------------------------- */
 /* Section one */
@@ -55,13 +47,13 @@ body {
   /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--additional-text-color);
+  color: var(--white-text-color);
 }
 .main-tit button {
+  cursor: pointer;
   background-color: var(--link-hover-color);
-  color: var(--additional-text-color);
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+  color: var(--white-text-color);
+  font-family: roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -113,10 +105,10 @@ body {
 /* ------------------------------------------- */
 /* Filtr */
 .filtr {
+  cursor: pointer;
   color: var(--tit-text-color);
   background-color: #F5F4FA;
-  ;
-  font-family: roboto, sans-serif;
+  font-family: roboto,sans-serif;  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -126,7 +118,7 @@ body {
 .filtr:hover,
 .filtr:focus {
   background-color: #2196F3;
-  color: var(--additional-text-color);
+  color: var(--white-text-color);
 }
 
 /* Filtr */
@@ -147,17 +139,19 @@ body {
 /* Project */
 /* ------------------------------------------- */
 /* Footer */
-/* .basement {
-  background-color: #2f303a;
-} */
+
 .basement-std {
-  color: var(--additional-text-color);
+  color: var(--white-text-color);
 }
-.basement .basement-cnnct {
+.basement-cnnct {
   color: rgba(255, 255, 255, 0.6);
 }
+.basement-cnnct:hover,
+.basement-cnnct:focus {
+  color: var(--link-hover-color);
+}
 .map {
-  color: var(--additional-text-color);
+  color: var(--white-text-color);
 }
 .basement-list {
   font-size: 14px;
@@ -165,3 +159,6 @@ body {
 }
 /* Footer */
 /* ------------------------------------------- */
+/* ul {
+  list-style: none;
+} */
