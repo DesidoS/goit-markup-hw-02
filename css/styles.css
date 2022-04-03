@@ -43,11 +43,12 @@ body {
 color: var(--link-hover-color); 
 }
 .contact a {
+  font-weight: 500;
   text-decoration: none;
   color: var(--general-text-color);
 }
 .contact a:hover,
-.contact a:hover {
+.contact a:focus {
   color: var(--link-hover-color);
 }
 /* Hedder */
@@ -64,7 +65,7 @@ color: var(--link-hover-color);
 }
 .main-tit button:hover,
 .main-tit button:focus {
-  color: ;
+  background-color: #188CE8 ;
 }
 .main-tit button {
   cursor: pointer;
@@ -145,6 +146,9 @@ color: var(--link-hover-color);
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.project-link {
+  text-decoration: none;
+}
 .product {
   color: var(--general-text-color);
   font-size: 16px;
@@ -158,18 +162,19 @@ color: var(--link-hover-color);
 }
 .basement-contact {
   color: var(--contact-text-color);
+  text-decoration: none;
 }
 .basement-contact:hover,
 .basement-contact:focus {
   color: var(--link-hover-color);
 }
 .map {
+  text-decoration: none;
   color: var(--white-text-color);
 }
 .basement-list {
   font-style: normal;
   line-height: 1.71;
-  text-decoration: none;
 }
 /* Footer */
 /* ------------------------------------------- */
